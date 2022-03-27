@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '**/README.md'
 
   # To manually trigger a workflow, use the workflow_dispatch event. You can manually trigger a workflow run using the GitHub API, GitHub CLI, or GitHub browser interface. For more information, see "Manually running a workflow."
   workflow_dispatch:
