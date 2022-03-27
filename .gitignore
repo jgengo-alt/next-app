@@ -15,6 +15,7 @@ coverage
 .lock-wscript
 
 build/Release
+out
 
 node_modules
 jspm_packages
