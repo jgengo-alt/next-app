@@ -28,4 +28,4 @@ I created this simple <a href="https://nextjs.org/https://nextjs.org/">Next.js</
 
 The only challenge here was mainly to create the Github Action to automatically deploy a Github Page.
 
-A small issue with the assets, so I hadd to create a `next.config.js`. 
+A small issue with the assets, so I had to create a `next.config.js`. 
