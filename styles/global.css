@@ -22,9 +22,16 @@ p {
 	padding: 2em;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 	border-radius: 3px;
-	cursor: pointer;
 }
 
-p:hover {
-	transform: scale(1.02);
+a,
+a:link,
+a:visited,
+a:hover {
+	text-decoration: none;
+	color: rgb(0, 0, 220);
+}
+
+a:hover {
+	text-decoration: underline;
 }
